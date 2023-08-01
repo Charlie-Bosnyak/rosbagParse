@@ -17,12 +17,19 @@ Afterwards, run applicationMain.py through the terminal.
 
 ## Dependencies
 [Bagpy](https://jmscslgroup.github.io/bagpy/) and Bagreader
+
 [Pandas](https://pandas.pydata.org/)
+
 [Seaborn](https://seaborn.pydata.org/)
+
 [Matplotlib](https://matplotlib.org/)
+
 [Numpy](https://numpy.org/)
+
 [Tabulate](https://pypi.org/project/tabulate/)
+
 [Tkinter](https://docs.python.org/3/library/tkinter.html)
+
 [PIL/Pillow](https://pypi.org/project/Pillow/)
 
 
