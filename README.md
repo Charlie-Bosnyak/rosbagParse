@@ -3,6 +3,7 @@
 ## Description
 A tool that displays data streams from a ROS Rosbag as configurable plots.
 
+
 UI is made using Python Tkinter
 
 Graphs are generated using matplotlib
@@ -14,4 +15,6 @@ Run RosbagParseSetup.sh, which will install the required dependencies with pip.
 
 Afterwards, run applicationMain.py through the terminal.
 
+
+## Credit
 Made for Lotus Robotics, summer 2023
