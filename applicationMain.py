@@ -1,3 +1,5 @@
+#Created by Charlie Bosnyak for Lotus Robotics
+#8/3/2023
 import bagpy
 from bagpy import bagreader
 import pandas as pd
@@ -13,11 +15,7 @@ import copy
 
 root=tk.Tk()
 
-import graphGen
-
-import displayFrames
-
-import displayFramesCN
+from DataAnalysisGUI import graphGen, displayFrames, displayFramesCN
 
 root.displayPkg=displayFrames
 
@@ -906,15 +904,5 @@ def createSettingsFrame():
 
 createSettingsFrame()
 
-'''
-def createScrollbar():
-    scroll = ttk.Scrollbar(root.frameDict['globalFrame'])
-    scroll.grid(row=0, column=3,rowspan=5, sticky=tk.E)
-
-    scroll.config(command=root.frameDict['globalFrame'].yview)
-    root.frameDict['globalFrame'].configure(yscrollcommand=scroll.set)
-
-createScrollbar()
-'''
 #-----------------------------------------------------------------------------------MAIN LOOP--------------------------------------
 root.mainloop()

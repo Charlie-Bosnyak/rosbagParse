@@ -567,8 +567,8 @@ def updateFrames(root,globalFrame):
 
 
 def createSettingsFrame(root,frame,redrawAll,toggleLanguage):
-    testButton=tk.Button(frame,text='Redraw all',command = redrawAll)
-    testButton.grid(row=0,column=0,pady=10,sticky='w')
+    #testButton=tk.Button(frame,text='Redraw all',command = redrawAll)
+    #testButton.grid(row=0,column=0,pady=10,sticky='w')
 
     if root.lang=='EN':
         langToggle=tk.Button(frame,text='▣ English | ▢ 中文',command=toggleLanguage)
